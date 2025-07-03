@@ -1,0 +1,202 @@
+/* Set font and remove all default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+/* Sets max width for website content */
+header .container,
+.section .container {
+    max-width: 1200px;
+    padding: 16px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 48px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+button.sign-up {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    max-width: fit-content;
+    margin: 12px 0;
+}
+
+/* Header */
+header {
+    height: auto;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding: 0px 48px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+}
+
+header .container ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+header .container ul a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* Section one */
+.section.one {
+    min-height: 300px;
+    background-color: #1f2937;
+}
+
+.section.one .container {
+    display: flex;
+    gap: 72px;
+}
+
+.section.one .container .info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.section.one .container .info h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.section.one .container .info p {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.section.one .container .image {
+    background-color: grey;
+    height: auto;
+    width: 650px;
+    flex: none;
+}
+
+/* Section two */
+.section.two {
+    color: #6b6c6f;
+    background-color: #F9FAF8;
+    text-align: center;
+}
+
+.section.two .container {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    margin-bottom: 24px;
+}
+
+.section.two .container h1 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.section.two .container .cards {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.section.two .container .card {
+    max-width: 175px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section.two .container .card img {
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    margin-bottom: 6px;
+    height: 200px;
+    width: 150px;
+    flex: none;
+}
+
+/* Section three */
+.section.three {
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.section.three .container {
+    max-width: 800px;
+    margin: 36px auto;
+}
+
+.section.three .container blockquote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.section.three .container cite {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    display: block;
+}
+
+/* Section four */
+.section.four {
+    background-color: #F9FAF8;
+}
+
+section.four .container {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 48px;
+    padding: 48px 128px;
+    border-radius: 12px;
+}
+
+section.four .container .info h2 {
+    font-size: 28px;
+}
+
+section.four .container .info p {
+    font-size: 18px;
+}
+
+section.four .container button {
+    border: 3px solid #F9FAF8;
+}
+
+/* Footer */
+footer {
+    min-height: 86px;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
