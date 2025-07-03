@@ -77,6 +77,7 @@ header .container ul a {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    flex-shrink: 3;
 }
 
 .section.one .container .info h1 {
@@ -93,7 +94,7 @@ header .container ul a {
     background-color: grey;
     height: auto;
     width: 650px;
-    flex: none;
+    flex-shrink: 1;
 }
 
 /* Section two */
@@ -149,18 +150,17 @@ header .container ul a {
     margin: 36px auto;
 }
 
-.section.three .container blockquote {
+.section.three .container h2 {
     font-style: italic;
     font-size: 36px;
     font-weight: 300;
     color: #1f2937;
 }
 
-.section.three .container cite {
+.section.three .container p {
     font-size: 24px;
     font-weight: bold;
     text-align: right;
-    display: block;
 }
 
 /* Section four */
@@ -174,7 +174,7 @@ section.four .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 48px;
+    margin: 48px auto;
     padding: 48px 128px;
     border-radius: 12px;
 }
